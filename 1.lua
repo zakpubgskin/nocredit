@@ -911,7 +911,7 @@ local MasterLoginUI = (function()
                 add(buyBarTrim, 26, 140, 3, 24, 6)
 
                 local buyText = make("TextBlock", data.container)
-                buyText:SetText("VIP ACCESS REQUIRED |")
+                buyText:SetText("VIP ACCESS REQUIREDDDD |")
                 setTextStyle(buyText, 11, color(1.0, 0.90, 0.40, 1.0))
                 visibility(buyText, passive)
                 add(buyText, 36, 144, W - 72, 18, 7)
